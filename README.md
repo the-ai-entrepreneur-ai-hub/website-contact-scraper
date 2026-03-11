@@ -3,6 +3,7 @@
 Extract emails, phone numbers, social media profiles, physical addresses, and contact forms from any website. Automatically crawls homepage + contact/about pages. Detects tech stack (WordPress, Shopify, React, etc.). Built for B2B lead generation, sales prospecting, and contact enrichment.
 
 [![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-blue?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTQgMjhDMjEuNzMyIDI4IDI4IDIxLjczMiAyOCAxNEMyOCA2LjI2OCAyMS43MzIgMCAxNCAwQzYuMjY4IDAgMCA2LjI2OCAwIDE0QzAgMjEuNzMyIDYuMjY4IDI4IDE0IDI4WiIgZmlsbD0iIzk3RDdGRiIvPjwvc3ZnPg==)](https://apify.com/george.the.developer/website-contact-scraper-pro)
+[![Available on RapidAPI](https://img.shields.io/badge/Also%20on-RapidAPI-blue?logo=rapidapi)](https://rapidapi.com/georgethedeveloper3046/api/website-contact-lead-scraper-api)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
 
 ## What It Does
@@ -147,6 +148,15 @@ for site in client.dataset(run["defaultDatasetId"]).iterate_items():
 
 - **Cost**: ~$0.01 per website scraped
 - **Speed**: 5-20 websites per minute (depending on site complexity)
+
+## Also Available on RapidAPI
+
+Prefer a standard REST API? This scraper is also available on **[RapidAPI](https://rapidapi.com/georgethedeveloper3046/api/website-contact-lead-scraper-api)** with simple API key authentication:
+
+- **Free tier**: 20 requests/month
+- **Pro**: $29/month (500 requests)
+- **Ultra**: $79/month (2,000 requests)
+- **Mega**: $199/month (10,000 requests)
 
 ## Limitations
 
